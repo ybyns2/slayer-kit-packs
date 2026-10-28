@@ -1,0 +1,52 @@
+name: Proposer un serveur
+description: Ajoute ton serveur RP à Slayer Kit, sans avoir besoin d'utiliser Git.
+title: "[Serveur] "
+labels: [nouveau serveur]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remplis ce formulaire et joins les visuels : le pack sera créé puis validé par le mainteneur. Si tu sais utiliser Git, tu peux aussi ouvrir directement une pull request (voir CONTRIBUTING.md).
+  - type: input
+    id: nom
+    attributes:
+      label: Nom du serveur
+      placeholder: Mon Serveur RP
+    validations:
+      required: true
+  - type: input
+    id: discord
+    attributes:
+      label: Lien Discord du serveur
+      placeholder: discord.gg/xxxxx
+    validations:
+      required: true
+  - type: input
+    id: titre-fivem
+    attributes:
+      label: Titre de la fenêtre FiveM
+      description: Un morceau du titre de la fenêtre FiveM quand tu es connecté au serveur. Il sert à la détection automatique.
+  - type: input
+    id: couleurs
+    attributes:
+      label: Couleurs
+      description: Couleur principale, secondaire et fond, au format #RRGGBB.
+      placeholder: "#9B5CFF, #D46BFF, #0D0916"
+    validations:
+      required: true
+  - type: textarea
+    id: visuels
+    attributes:
+      label: Visuels
+      description: |
+        Glisse ici les fichiers : logo carré (512×512 conseillé), bannière, fond animé (mp4, webm ou gif) et fond fixe 1920×1080.
+    validations:
+      required: true
+  - type: checkboxes
+    id: accord
+    attributes:
+      label: Autorisations
+      options:
+        - label: Je fais partie du staff du serveur ou j'ai son accord pour utiliser ces visuels
+          required: true
+        - label: Les musiques éventuelles sont libres de droits

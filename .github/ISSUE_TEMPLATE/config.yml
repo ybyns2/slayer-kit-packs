@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug ou idée pour l'application
+    url: https://github.com/ybyns2/slayer-kit/issues/new/choose
+    about: Les problèmes et idées concernant Slayer Kit lui-même se signalent sur le repo de l'application.
