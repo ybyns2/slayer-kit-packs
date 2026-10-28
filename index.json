@@ -1,0 +1,212 @@
+{
+  "schema": 1,
+  "common": {
+    "version": "1.0.0",
+    "music": {
+      "demarrage": {
+        "file": "musiques/demarrage.mp3",
+        "title": "Volatile Reaction",
+        "artist": "Kevin MacLeod",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com",
+        "credit": "\"Volatile Reaction\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+      },
+      "pause": {
+        "file": "musiques/pause.mp3",
+        "title": "Lobby Time",
+        "artist": "Kevin MacLeod",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com",
+        "credit": "\"Lobby Time\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+      },
+      "fin": {
+        "file": "musiques/fin.mp3",
+        "title": "Cool Vibes",
+        "artist": "Kevin MacLeod",
+        "license": "CC BY 4.0",
+        "source": "https://incompetech.com",
+        "credit": "\"Cool Vibes\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+      }
+    },
+    "files": [
+      {
+        "path": "musiques/CREDITS.md",
+        "sha256": "56c608c0f4cacf5bc40faf6e7035ef1c3b940bd39c1a6fea9b8acb4e8014db3a",
+        "size": 737
+      },
+      {
+        "path": "musiques/demarrage.mp3",
+        "sha256": "ced1148df201a6c69062a96b7ef49c49924572ca5023c2ac5a2d6c5828ecb218",
+        "size": 5293585
+      },
+      {
+        "path": "musiques/fin.mp3",
+        "sha256": "86e5afb1f71da4c45927bb693cc32e2f72954137cf010599a912fa89cfd4db2e",
+        "size": 8737561
+      },
+      {
+        "path": "musiques/pause.mp3",
+        "sha256": "bc47dc1f1a0b1fe4ff631cee89ca3987b8f7b52f533d06233665d51300331beb",
+        "size": 6184700
+      }
+    ]
+  },
+  "packs": [
+    {
+      "id": "fratworld",
+      "name": "FratWorld",
+      "version": "1.0.0",
+      "description": "Serveur RP FratWorld",
+      "discord": "https://discord.gg/fratworld",
+      "author": "yns_bnl",
+      "colors": {
+        "accent": "#FF7A1A",
+        "accent2": "#FFB347",
+        "background": "#100B07"
+      },
+      "fivem": {
+        "windowTitleContains": [
+          "FratWorld",
+          "Frat World"
+        ]
+      },
+      "logo": "logo.png",
+      "files": [
+        {
+          "path": "banniere-animee.gif",
+          "sha256": "eda385cd5b8d5c45f9d1bfb9d445de126494b0f82cc5e826421c2f509812ba21",
+          "size": 2196224
+        },
+        {
+          "path": "banniere-discord.gif",
+          "sha256": "722031a952d33714c25e41d12ea967219d0e3e5d6c877a176af111df75713b7d",
+          "size": 160275
+        },
+        {
+          "path": "fond-anime.mp4",
+          "sha256": "4c23eb2699d54a7a15660e10954be0a40a567cfb00f7fcda964e689a7e00334e",
+          "size": 20797192
+        },
+        {
+          "path": "fond-fixe.png",
+          "sha256": "a9e6e6281496cc66f36683bd73ad6e867efefcef723c830362334ed40b01da43",
+          "size": 1133090
+        },
+        {
+          "path": "logo-halo.png",
+          "sha256": "356777aafd79e890a31b4b17b7de5290072c223b64172952a2ce543c72cf91c9",
+          "size": 188283
+        },
+        {
+          "path": "logo.png",
+          "sha256": "60385dfbccd06cdd575fd2c3fc958a45f1c17884827e9d3f944d1c30937764e3",
+          "size": 144074
+        }
+      ]
+    },
+    {
+      "id": "night-fa",
+      "name": "Night FA",
+      "version": "1.0.0",
+      "description": "Serveur RP Night FA",
+      "discord": "--- IGNORE ---",
+      "author": "yns_bnl",
+      "colors": {
+        "accent": "#D63AF9",
+        "accent2": "#FFAA50",
+        "background": "#0C0712"
+      },
+      "fivem": {
+        "windowTitleContains": [
+          "NightFA",
+          "Night FA"
+        ]
+      },
+      "logo": "logo.png",
+      "files": [
+        {
+          "path": "banniere-discord.gif",
+          "sha256": "ca7d7927176e7998bc307737fd26edb3d41035c9852c5cef0f97219f8a4f3cb2",
+          "size": 191474
+        },
+        {
+          "path": "banniere.png",
+          "sha256": "1b481fc9c0df2ac463a5f88152001aa24ea1df18bb3ff6af7047f5e2a81d6be6",
+          "size": 1433012
+        },
+        {
+          "path": "blason-anime.gif",
+          "sha256": "d2f96751e17406de476934030092850b227f4701145c8e1181526fd79147828c",
+          "size": 2069239
+        },
+        {
+          "path": "fond-anime.mp4",
+          "sha256": "8c57e8ebf047ce748acf4e2261e82bc0c316003115e463e796ac65144352c199",
+          "size": 41535655
+        },
+        {
+          "path": "fond-fixe.png",
+          "sha256": "eeb27b3a6acc7dc56eec9cb72560c401be86d7713294827f6af4269588e6cb96",
+          "size": 2914677
+        },
+        {
+          "path": "logo.png",
+          "sha256": "aa4acf32ced868e96aab6822e39a3273b2d462b803d32cab42d8d2b51d26ab0d",
+          "size": 366757
+        }
+      ]
+    },
+    {
+      "id": "unity-legacy",
+      "name": "Unity Legacy",
+      "version": "1.0.0",
+      "description": "Serveur RP Unity Legacy",
+      "discord": "discord.gg/unitylegacy",
+      "author": "yns_bnl",
+      "colors": {
+        "accent": "#9B5CFF",
+        "accent2": "#D46BFF",
+        "background": "#0D0916"
+      },
+      "fivem": {
+        "windowTitleContains": [
+          "UNITY Legacy",
+          "Unity Legacy"
+        ]
+      },
+      "logo": "logo.png",
+      "files": [
+        {
+          "path": "banniere-discord.gif",
+          "sha256": "8f2e3a0b4a8beef5338ea90a8b47f874b0db59fbbebc5a2abf3a369810785336",
+          "size": 431185
+        },
+        {
+          "path": "banniere-twitch.png",
+          "sha256": "7b341032e5df84ead304e58e34c815d03f8b94cd01e09605c0d218ae46c6c13c",
+          "size": 324322
+        },
+        {
+          "path": "blason-anime.gif",
+          "sha256": "a0a0213da26ebc7a92374307b53943b611a327cbe71c7e967663dcd36998d2df",
+          "size": 2274944
+        },
+        {
+          "path": "fond-anime.gif",
+          "sha256": "fd55655707f60af46214cc471447620fe2da3d891d2f2cef4b205ca3c5434356",
+          "size": 7455618
+        },
+        {
+          "path": "fond-fixe.png",
+          "sha256": "738110693dd37c94a9d55438504ebc97023645d20a6d997bf42e3bbf187da35f",
+          "size": 1613723
+        },
+        {
+          "path": "logo.png",
+          "sha256": "431ae0920aa228f1f927dfad3f15b822998a6a632ba53a45590cbf30babe4d10",
+          "size": 272097
+        }
+      ]
+    }
+  ]
+}

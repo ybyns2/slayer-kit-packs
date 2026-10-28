@@ -1,0 +1,26 @@
+{
+  "id": "unity-legacy",
+  "name": "Unity Legacy",
+  "version": "1.0.0",
+  "description": "Serveur RP Unity Legacy",
+  "discord": "discord.gg/unitylegacy",
+  "author": "yns_bnl",
+  "colors": {
+    "accent": "#9B5CFF",
+    "accent2": "#D46BFF",
+    "background": "#0D0916"
+  },
+  "fivem": {
+    "windowTitleContains": [
+      "UNITY Legacy",
+      "Unity Legacy"
+    ]
+  },
+  "logo": "logo.png",
+  "assets": {
+    "logo": "logo.png",
+    "bannerDiscord": "banniere-discord.gif",
+    "background": "fond-anime.gif",
+    "backgroundStill": "fond-fixe.png"
+  }
+}

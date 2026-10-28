@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "music": {
+    "demarrage": {
+      "file": "musiques/demarrage.mp3",
+      "title": "Volatile Reaction",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "source": "https://incompetech.com",
+      "credit": "\"Volatile Reaction\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+    },
+    "pause": {
+      "file": "musiques/pause.mp3",
+      "title": "Lobby Time",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "source": "https://incompetech.com",
+      "credit": "\"Lobby Time\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+    },
+    "fin": {
+      "file": "musiques/fin.mp3",
+      "title": "Cool Vibes",
+      "artist": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "source": "https://incompetech.com",
+      "credit": "\"Cool Vibes\" Kevin MacLeod (incompetech.com) - Licensed under Creative Commons: By Attribution 4.0 License - http://creativecommons.org/licenses/by/4.0/"
+    }
+  }
+}

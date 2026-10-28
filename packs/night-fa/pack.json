@@ -1,0 +1,26 @@
+{
+  "id": "night-fa",
+  "name": "Night FA",
+  "version": "1.0.0",
+  "description": "Serveur RP Night FA",
+  "discord": "--- IGNORE ---",
+  "author": "yns_bnl",
+  "colors": {
+    "accent": "#D63AF9",
+    "accent2": "#FFAA50",
+    "background": "#0C0712"
+  },
+  "fivem": {
+    "windowTitleContains": [
+      "NightFA",
+      "Night FA"
+    ]
+  },
+  "logo": "logo.png",
+  "assets": {
+    "logo": "logo.png",
+    "bannerDiscord": "banniere-discord.gif",
+    "background": "fond-anime.mp4",
+    "backgroundStill": "fond-fixe.png"
+  }
+}

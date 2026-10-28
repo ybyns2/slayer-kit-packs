@@ -1,0 +1,26 @@
+{
+  "id": "fratworld",
+  "name": "FratWorld",
+  "version": "1.0.0",
+  "description": "Serveur RP FratWorld",
+  "discord": "https://discord.gg/fratworld",
+  "author": "yns_bnl",
+  "colors": {
+    "accent": "#FF7A1A",
+    "accent2": "#FFB347",
+    "background": "#100B07"
+  },
+  "fivem": {
+    "windowTitleContains": [
+      "FratWorld",
+      "Frat World"
+    ]
+  },
+  "logo": "logo.png",
+  "assets": {
+    "logo": "logo.png",
+    "bannerDiscord": "banniere-discord.gif",
+    "background": "fond-anime.mp4",
+    "backgroundStill": "fond-fixe.png"
+  }
+}

@@ -1,0 +1,48 @@
+name: Packs
+
+on:
+  pull_request:
+    paths: ["packs/**", "communs/**", "tools/**"]
+  push:
+    branches: [main]
+    paths: ["packs/**", "communs/**", "tools/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verifier:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Vérifier les packs proposés
+        run: python tools/build_index.py --check
+
+  publier:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Générer le catalogue
+        run: python tools/build_index.py
+      - name: Publier index.json
+        run: |
+          if git diff --quiet -- index.json; then
+            echo "Catalogue déjà à jour."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.json
+          git commit -m "chore(index): régénère le catalogue des packs"
+          git push
